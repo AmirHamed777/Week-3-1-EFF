@@ -1,0 +1,33 @@
+body{
+    color:darkcyan}
+    h1{
+      color:orangered}
+      h2{
+        color:rebeccapurple
+      }
+      body{
+        background-image: linear-gradient(270deg,rgb(119, 119, 119),rgb(0, 132, 255),White);
+      }
+#paraFunc{
+  color: rgb(255,138,1);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1em;
+}
+#paraFunc2{
+  color: rgb(0, 238, 238);
+  font-style: oblique;
+  text-decoration: underline;
+}
+
+#CountdownStatus{
+  color: darkcyan;
+  font-size: 150%;
+}
+
+.button{
+  width: 100px;
+  height: 30px; 
+  background-color: white;
+  border-radius: 15px;
+  border-color: cyan;
+}

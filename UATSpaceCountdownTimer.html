@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--Week 1 assignment, html tags
+Assignment: Launching your UAT Space Program HTML Document Tags
+Amir HAmed
+Amir.hamed757@gmail.com-->
+<html>
+    <head> 
+    <script src="Code.JS"></script>
+    <link href="Style.CSS" rel="stylesheet" type="text/CSS">
+         <title>
+             Amir Hamed's UAT Space Page
+          </title>
+          <style>
+            body{
+              color:darkcyan}
+              h1{
+                color:orangered}
+                h2{
+                  color:rebeccapurple
+                }
+                body{
+                  background-color: black;
+                }
+          </style>
+    </head>
+
+    <body>
+      <!--table tro UAT Space logo and header text-->
+      <table>
+        <tr>
+          <td>
+            <img src="UATSpaceLogo-2.jpg"> 
+            <td>
+              <h1>
+                UAT Space Program
+              </h1>
+            </td>
+          </td>
+        </tr>
+      </table>
+          <script> 
+          //test use of document.write
+          document.write("Mission 3");
+         </script>
+          <p id="paraFunc">
+            This is the official launch sequence. Standby for BLASTOFF!!
+          </p>
+          <!--Countdown Timer Title-->
+          <h2 id="paraFunc2">Countdown Timer</h2>
+          <!--Status of current countdown timer-->
+          <div id="CountdownStatus">Timer Status</div> <br>
+          <br>
+          <button onclick="blastoffTimerV2();" class="button">Start</button>
+          <button class="button">Stop</button><br><br>
+          <!--
+            For our Craps game on the html side, we need:
+              1. button to play craps
+              2. Craps status line
+              3. Header saying Craps played here
+            the story of our craps game...
+            
+            deep in the labyrinth of the spacetime continuum of quantum galaxies.
+             There was a man who stood a test of time. 
+             A game seperating him from his greatnes.....  CRAPS.
+             Will you stand the test of time and play your hand?  
+        -->
+        <h2>Please try your hand at Craps!</h2>
+       <div id="crapsStatus">Craps Status</div><br>
+       <button onclick="playCraps();">Play Craps</button>
+        </body>
+</html>
